@@ -24,7 +24,7 @@ self.addEventListener("install",(event) =>{
     const promesaCache = caches.open(CACHE_STATIC_NAME)
     .then(cache =>{
         return cache.addAll([
-            "/",
+            "/PWA-EEG-U2-P3",
             "index.html",
             "img/noticia1.png",
             "img/noticia2.png",

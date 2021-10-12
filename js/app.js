@@ -16,5 +16,5 @@ $(".btn-regresar").on("click",function(){
 });
 
 if(navigator.serviceWorker){
-    navigator.serviceWorker.register("/sw.js")
+    navigator.serviceWorker.register("/PWA-EEG-U2-P3/sw.js")
 }
